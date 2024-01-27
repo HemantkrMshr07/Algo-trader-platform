@@ -1,0 +1,343 @@
+/* .container {
+    width: 600px;
+    height: 300px;
+    background-color: yellow;
+    display: grid; */
+    /* grid-template-rows: 50px 50px 50px 50px 50px;
+    grid-template-columns: auto auto auto; */
+    /* grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    column-gap: 30px;
+    justify-items: center;
+    align-items: start;
+    place-items: center;
+    
+} */
+/* 
+.item {
+     width: 100px;
+    height: 50px; 
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+}
+
+h1 {
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+@media(width : 400px) {
+    h1{
+        background-color: red;
+    }
+   
+}
+
+@media (orientation : landscape) {
+    h1 {
+        background-color: aqua;
+        color: magenta;
+    }
+} */
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #555;
+    padding: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #44475B;
+  }
+
+  p {
+    justify-content: center;
+    display: flex;
+    color: #7c7e8c;
+    font: 24px GrowwSans,NotoSans,system-ui;
+    margin: 16px 0px 16.08px;
+
+  }
+  
+  section {
+    padding: 20px;
+  }
+
+  /* #globalSearch23-searchMainDivId {
+    border: 1px solid #ebe9e9;
+    transition: border-radius 1.2s;
+    height: 41px;
+    width: 394.46px;
+    padding: 0px 0px 0px 10px;
+} */
+
+/* .search-container {
+  position: relative;
+  width: 300px;
+} */
+
+
+/* Style for the search input */
+.search-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style for the search icon */
+/* .search-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+} */
+
+.c-kHzvll {
+  
+  border: solid;
+  flex-grow: 1;
+  outline: 0px;
+  padding: 0px;
+  /* color: var(--gray900);
+  background: var(--dangerouslySetPrimaryBg);
+  caret-color: var(--green500); */
+  height: 22px;
+  width: 341.15px;
+  margin-top: 10px;
+}
+
+/* Add your existing styles here */
+
+.mobile-menu-icon {
+  cursor: pointer;
+  /* Add any additional styles as needed */
+}
+
+@media only screen and (max-width: 600px) {
+  /* Styles for mobile devices */
+  body {
+    font-size: 14px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  nav.show-mobile-menu {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Styles for tablets */
+  body {
+    font-size: 16px;
+  }
+}
+
+/* Add your existing styles here */
+
+/* Header styles */
+header {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 10px;
+}
+
+/* Navigation styles */
+nav {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+.mobile-menu-icon {
+  cursor: pointer;
+}
+@media only screen and (max-width: 800px){
+  .exploreFunds_tabsContent__kRcxg {
+    grid-template-columns: repeat(auto-fit,minmax(290px,1fr));
+}
+
+.exploreFunds_tabsContent__kRcxg {
+  margin-top: 64px;
+  display: grid;
+  grid-gap: 3.2rem;
+  grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+}
+.exploreFunds_fundReturnPercentage__LtrbN {
+  /* font-size: 2rem; */
+  font-weight: 600;
+}
+
+}
+
+/* Search container styles */
+.search-container {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.search-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 60%;
+}
+
+.search-icon {
+  font-size: 24px;
+  margin-left: -30px;
+  cursor: pointer;
+}
+
+/* Section styles */
+section {
+  padding: 20px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Additional styles */
+h2, p {
+  color: #333;
+}
+
+/* Add more styles as needed */
+.strategy-card img {
+  width: 100%; /* Adjust as needed */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 100%; /* Prevent images from exceeding their natural size */
+  border-radius: 8px; /* Optional: Add rounded corners for a nicer look */
+}
+
+/* Additional styling for the strategy cards */
+.strategy-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Add this style within your existing CSS */
+
+/* Style for the strategy descriptions */
+.strategy-card p {
+  color: #555;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* Style for the "Learn More" link */
+.strategy-card a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.strategy-card a:hover {
+  background-color: #0056b3;
+}
+
+
+
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .mr20 {
+   /* // margin-right: 0px; */
+    /* display: inline-block; */
+    align-items: center;
+    align-self: auto;
+    align-self: center;
+    display: inline-block;
+    margin-right: -18%;
+  }
+  
+  img {
+    margin-right: 270px;
+}
+
+a {
+    color: #333333;
+}
+
+span {
+    height: 409.6px;
+    width: 275.2px;
+    color: #44475B;
+    font: 64px GrowwSans,NotoSans,system-ui;
+    animation: slideIn 2s ease-in-out;
+}
+
+@keyframes slideIn {
+  0% {
+      transform: translateY(-10px);
+      opacity: 0;
+  }
+}
+
